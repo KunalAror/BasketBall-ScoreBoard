@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏀ScoreBoard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="https://i.etsystatic.com/21201275/r/il/3ab4c0/2683814849/il_794xN.2683814849_hlpl.jpg" type="image/x-icon">
+</head>
+<body>
+    <script src="index.js"> </script>
+    <main class="column">
+    <div class="HomeScoreBoard">
+        <h2 class="team">HOME </h2>
+        <div class="score">
+            <h2 id="HomeScore">0</h2>
+        </div>
+        <div class="adders">
+            <button type="button" id="home" onclick="plusone(this.id)">+1</button>
+            <button type="button" id="home" onclick="plustwo(this.id)">+2</button>
+            <button type="button" id="home" onclick="plusthree(this.id)">+3</button>
+        </div>
+    </div>
+    
+    <div class="AwayScoreboard">
+        <h2 class="team">AWAY </h2>
+        <div class="score">
+            <h2 id="AwayScore">0</h2>
+        </div>
+        <div class="adders">
+            <button type="button" id="away" onclick="plusone(this.id)">+1</button>
+            <button type="button" id="away" onclick="plustwo(this.id)">+2</button>
+            <button type="button" id="away" onclick="plusthree(this.id)">+3</button>
+        </div>
+    </div>
+    </main>
+    <aside>
+        <button type="button" class="newgame" onclick="reset()">NEW GAME</button>
+    </aside>
+</body>
+</html>
