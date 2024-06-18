@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'cursed_timer';
+    src: url(../fonts/CursedTimerUlil-Aznm.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20rem;
+}
+
+*{
+    margin: auto auto;
+    padding: 1rem;
+    /* font-family: */
+    background-color: rgb(17, 17, 146);
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.column{
+    columns: 2;
+    /* column-rule: 20px solid white; */
+    margin:auto;
+    text-align: center;
+}
+
+.HomeScoreBoard{
+    break-inside: avoid;
+    /* text-siz */
+}
+
+.score h2{
+    box-sizing: content-box;
+    font-family: cursed_timer;
+    font-size:4rem;
+    background-color: #000;
+    color: rgb(224, 16, 47);
+    width: 4rem;
+    height: 4rem;
+    padding: 2.7rem 2rem 2rem 2rem;
+    /* margin:0rem ; */
+    border-radius:1rem;
+    margin: 0rem auto;
+}
+
+.adders button{
+    font-family: cursed_timer;
+    box-sizing: content-box;
+    text-align: center;
+    width:2.5rem;
+    height: 2.5rem;
+    color: rgba(240, 248, 255, 0.763);
+    border-radius: .5rem;
+    border: 2px solid rgba(255, 255, 255, 0.756);
+    margin:0rem  0.4rem  ;
+    padding: 0rem;
+}
+
+.team{
+    font-size:3rem;
+    padding: 0rem;
+    margin:0rem auto;
+}
+
+aside{
+    display: block;
+    text-align: center;
+}
+.newgame{
+    margin: auto;
+    /* width: 50%; */
+    font-family: cursed_timer;
+    color: rgb(224, 16, 47);
+    /* margin: 25%; */
+    /* padding: 0; */
+    text-align: center;
+    /* color: rgba(240, 248, 255, 0.763); */
+    border-radius: .5rem;
+    border: 2px solid rgba(255, 255, 255, 0.756);
+
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+}
+
